@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@300&family=Roboto+Slab:wght@300&family=Rock+Salt&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -11,7 +14,16 @@ nav a{text-align: center;
 #background {
     height: 725px;
 }
-body {background-color: #588157;}
+h1, h2, .msg {font-family: "Roboto Slab", "Rock Salt", Oswald;}
+body {font-family: "Kaushan Script", "Oswald", "Roboto Slab";
+    background-color: #588157;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;}
+.msg {line-height: 1.5em;
+    padding: 35px;
+    text-align: center;}
+.home-title {font-size: 2em;}
 header {background-color: rgba(20,30,13, .7);}
 nav a:hover {
     background-color: black;
@@ -19,15 +31,22 @@ nav a:hover {
 .book, .join {
     background-color: #588157;
     color: black;
-    text-decoration: none;}   
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;}   
 .book:hover, .join:hover, #background {
     background-color: #588157;
     color: black;} 
 footer {background-color: #ff6f00;}
-.home-title {color: navy;}
+.home-title {color: navy;
+margin-top: 10px;}
 h4 {color: black;}
 .msg, h2, p {color: black;}
-footer {color: black;} 
+footer {color: black;
+    padding: 25px 50px;
+    margin-top: 200px;} 
 footer a {color: navy;
     text-decoration: none;}
 footer a:hover {color: white}
@@ -35,4 +54,13 @@ footer a:hover {color: white}
 #hero-img {width: 100%;}
 footer p {font-size: 1.2em;}
 footer p a:hover {text-decoration: underline;}
-.msg {text-align: center;}
+h2 {margin: 0;}
+#logo_link {padding-top: 5px;}
+nav a {padding: 35px;}
+.icon {padding-top: 10px;}
+.msg p {padding-bottom: 15px;}
+footer .social img {padding-top: 15px;}
+.rivers-card, .camping-card, .rapids-card {margin: 200px 0;}
+.card-img {
+    border: 10px solid #ff6f00;}
+main section img {box-sizing: border-box;}
