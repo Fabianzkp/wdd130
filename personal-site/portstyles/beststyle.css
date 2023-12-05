@@ -102,3 +102,16 @@ a {text-decoration: none;}
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+
+
+.about-img {float: right;
+    padding-top: 3ch;
+    padding-right: 10ch;
+    border-radius: 20%;}
+.content-box {padding-top: 1ch;
+    font: bold;
+    width: 30%;
+    background-color: #684C70;
+    color: #CCDDE2;}
+
+
