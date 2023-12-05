@@ -109,10 +109,10 @@ footer .social img {padding-top: 15px;}
 main section img {box-sizing: border-box;}
 
 
-
+/*  page 2 */ 
 
 #hero-bold {display: grid;
-    margin-top: -250px;}
+    margin-top: -220px;}
 #hero-text {display: grid;
     margin-top: -200px;}
 .page-two {grid-column: 1/2;
@@ -146,6 +146,10 @@ text-align: center;}
     text-align: left;}
 h2 span {display: block;}
 h2 span {padding-top: 1.5em;}
+.words {font-size: 1em;
+    font-family: "Oswald";
+    font-weight: lighter;
+    ;}
 
 
 
