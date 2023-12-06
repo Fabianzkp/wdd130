@@ -25,10 +25,7 @@ nav a{text-align: center;
     text-decoration: none;
     padding: 4em;}
 nav :hover {color: #684C70;}
-.main-img {float: right;
-    padding-top: 3ch;
-    padding-right: 10ch;
-    border-radius: 20%;}
+
 .intro-box {padding-top: 1ch;
     font: bold;
     width: 30%;}
@@ -39,7 +36,10 @@ h2 {font-family: Oswald;
     line-height: 1.7;
     font-weight: 50;
     word-spacing: 1mm;}
-
+.about-img {float: right;
+    padding-top: 3ch;
+    padding-right: 10ch;
+    border-radius: 20%;}
 
 footer {
     background-color: #f08348;
@@ -103,15 +103,16 @@ a {text-decoration: none;}
 }
 
 
-
-.about-img {float: right;
-    padding-top: 3ch;
-    padding-right: 10ch;
-    border-radius: 20%;}
 .content-box {padding-top: 1ch;
     font: bold;
     width: 30%;
     background-color: #684C70;
     color: #CCDDE2;}
 
+/* Add this CSS to your existing stylesheet or create a new one */
 
+/* Add this CSS to your existing stylesheet or create a new one */
+
+
+  
+  
