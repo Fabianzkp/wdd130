@@ -17,7 +17,7 @@ nav {font-size: 2em;}
 header {
     background-color: #f08348;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;}
 nav a{text-align: center;
@@ -115,19 +115,8 @@ a {text-decoration: none;}
     background-color: #3b7657;
     color: #CCDDE2;}
 
-/* Add this CSS to your existing stylesheet or create a new one */
 
-/* Your existing styles */
-
-
-  
-
-/* Your existing styles */
-
-/* Add a media query for smaller screens */
-/* Your existing styles */
-
-/* Add a media query for smaller screens */
+/* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     body {
       padding: 0.5em; 
