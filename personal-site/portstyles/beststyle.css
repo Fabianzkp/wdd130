@@ -117,8 +117,37 @@ a {text-decoration: none;}
 
 /* Add this CSS to your existing stylesheet or create a new one */
 
-/* Add this CSS to your existing stylesheet or create a new one */
+/* Your existing styles */
 
 
+  
+
+/* Your existing styles */
+
+/* Add a media query for smaller screens */
+/* Your existing styles */
+
+/* Add a media query for smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+      padding: 0.5em; 
+    }
+  
+    header {
+      flex-direction: column; 
+      padding: 10px;
+    }
+  
+    nav {
+      font-size: 1.5em; 
+    }
+  
+    .about-img {
+      float: right; 
+      width: 20%; 
+      padding: 1em; 
+    }
+  }
+  
   
   
